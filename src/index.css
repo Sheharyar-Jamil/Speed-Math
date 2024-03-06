@@ -1,13 +1,72 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 4.8rem 0;
+  margin: 0 auto;
+}
+
+.scoreboard {
+  text-align: center;
+}
+
+.heading-secondary {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #355275;
+  margin-bottom: 2.8rem;
+}
+
+.heading-primary {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #355275;
+}
+
+.button {
+  width: 25rem;
+  font-size: 2.5rem;
+  border: none;
+  padding: 2.2rem 2.8rem;
+  background-color: #263238;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: #19252b;
+}
+.button-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.green {
+  /* background-color: rgb(143, 188, 143); */
+  color: rgb(91, 146, 91);
+  font-size: 2.5rem;
+}
+
+.red {
+  color: rgb(197, 55, 55);
+  font-size: 2.5rem;
+}
+
+.score {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2rem;
 }
