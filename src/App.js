@@ -21,8 +21,6 @@ function App() {
   }, [timer]);
 
   function handleSelection() {
-    if (number2 === number1) return;
-
     if (number1 > number2) {
       setScore(function (score) {
         return score + 1;
@@ -33,7 +31,6 @@ function App() {
   }
 
   function handleSelectionNumber2() {
-    if (number1 === number2) return;
     if (number2 > number1) {
       setScore(function (score) {
         return score + 1;
